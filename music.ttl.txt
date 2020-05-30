@@ -1,0 +1,98 @@
+@prefix md: <http://trendmusic.com/musicdata#>
+@prefix d: <http://trendmusic.com/data#>
+
+d:Say So md:artist "Doja Cat".
+d:Say So md:genre "Pop".
+d:Say So md:length "03.58".
+d:Say So md:year "2019".
+d:Say So md:listeners "131.214.899".
+
+d:Yummy md:artist "Justin Bieber".
+d:Yummy md:genre "Pop".
+d:Yummy md:length "03.30".
+d:Yummy md:year "2020".
+d:Yummy md:listeners "388.993.800".
+
+d:I'm The One md:artist "DJ Khaled, Justin Bieber, Quavo, Chance the Reaper, Lil Wayne".
+d:I'm The One md:genre "Hip Hop".
+d:I'm The One md:length "04.48".
+d:I'm The One md:year "2017".
+d:I'm The One md:listeners "1.397.349.887".
+
+d:God's Plan md:artist "Drake".
+d:God's Plan md:genre "Pop".
+d:God's Plan md:length "03.18".
+d:God's Plan md:year "2018".
+d:God's Plan md:listeners "1.146.649.568".
+
+d:Young Dumb and Broke md:artist "Khalid".
+d:Young Dumb and Broke md:genre "RnB".
+d:Young Dumb and Broke md:length "03.22".
+d:Young Dumb and Broke md:year "2018".
+d:Young Dumb and Broke md:listeners "662.986.399".
+
+d:Rude md:artist "MAGIC!".
+d:Rude md:genre "Pop".
+d:Rude md:length "03.44".
+d:Rude md:year "2014".
+d:Rude md:listeners "1.821.566.412".
+
+d:Counting Stars md:artist "OneRepublic".
+d:Counting Stars md:genre "Folk Pop".
+d:Counting Stars md:length "04.19".
+d:Counting Stars md:year "2013".
+d:Counting Stars md:listeners "2.978.282.070".
+
+d:Closer md:artist "The Chainsmokers, Halsey".
+d:Closer md:genre "Future Bass, Pop".
+d:Closer md:length "04.04".
+d:Closer md:year "2016".
+d:Closer md:listeners "2.497.937.306".
+
+d:Memories md:artist "Maroon 5".
+d:Memories md:genre "Pop".
+d:Memories md:length "03.09".
+d:Memories md:year "2019".
+d:Memories md:listeners "502.576.927".
+
+d:Señorita md:artist "Camila Cabello, Shawn Mendes".
+d:Señorita md:genre "Latin Pop".
+d:Señorita md:length "03.11".
+d:Señorita md:year "2019".
+d:Señorita md:listeners "1.027.373.447".
+
+d:Girls Like you md:artist "Maroon 5, Cardi B".
+d:Girls Like you md:genre "Pop".
+d:Girls Like you md:length "03.55".
+d:Girls Like you md:year "2018".
+d:Girls Like you md:listeners "2.680.847.003".
+
+d:That's What I Like md:artist "Bruno Mars".
+d:That's What I Like md:genre "Hip Hop Soul, RnB".
+d:That's What I Like md:length "03.26".
+d:That's What I Like md:year "2017".
+d:That's What I Like md:listeners "1.679.239.698".
+
+d:Bang Bang md:artist "Ariana Grande, Jessie J, Nicki Minaj".
+d:Bang Bang md:genre "Pop".
+d:Bang Bang md:length "03.19".
+d:Bang Bang md:year "2014".
+d:Bang Bang md:listeners "1.498.345.331".
+
+d:Taki Taki md:artist "DJ Snake, Selena Gomez, Ozuna, Cardi B".
+d:Taki Taki md:genre "Moombahton".
+d:Taki Taki md:length "03.32".
+d:Taki Taki md:year "2018".
+d:Taki Taki md:listeners "1.804.726.191".
+
+d:Despacito md:artist "Luis Fonsi, Daddy Yankee".
+d:Despacito md:genre "Reggaeton, Latin Pop".
+d:Despacito md:length "03.47".
+d:Despacito md:year "2017".
+d:Despacito md:listeners "6.787.371.954".
+
+d:See You Again md:artist "Wiz Khalifa, Charlie Puth".
+d:See You Again md:genre "Hip Hop".
+d:See You Again md:length "03.49".
+d:See You Again md:year "2015".
+d:See You Again md:listeners "4.570.379.021".

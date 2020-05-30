@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:md="http://trendmusic.com/musicdata#"
+xmlns:d="http://trendmusic.com/data#">
+
+<rdf:Description 
+rdf:about="http://trendmusic.com/Say So">
+    <md:artist>Doja Cat</md:artist>
+    <md:genre>Pop</md:genre>
+    <md:length>03.58</md:length>
+    <md:year>2019</md:year>
+    <md:listeners>131.214.899</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/Yummy">
+    <md:artist>Justin Bieber</md:artist>
+    <md:genre>Pop</md:genre>
+    <md:length>03.30</md:length>
+    <md:year>2020</md:year>
+    <md:listeners>388.993.800</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/I'm The One">
+    <md:artist>DJ Khaled, Justin Bieber, Quavo, Chance the Reaper, Lil Wayne</md:artist>
+    <md:genre>Hip Hop</md:genre>
+    <md:length>04.48</md:length>
+    <md:year>2017</md:year>
+    <md:listeners>1.397.349.887</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/God's Plan">
+    <md:artist>Drake</md:artist>
+    <md:genre>Pop</md:genre>
+    <md:length>03.18</md:length>
+    <md:year>2018</md:year>
+    <md:listeners>1.146.649.568</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/Young Dumb and Broke">
+    <md:artist>Khalid</md:artist>
+    <md:genre>RnB</md:genre>
+    <md:length>03.22</md:length>
+    <md:year>2018</md:year>
+    <md:listeners>662.986.399</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/Rude">
+    <md:artist>MAGIC!</md:artist>
+    <md:genre>Pop</md:genre>
+    <md:length>03.44</md:length>
+    <md:year>2014</md:year>
+    <md:listeners>1.821.566.412</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/Counting Stars">
+    <md:artist>OneRepublic</md:artist>
+    <md:genre>Folk Pop</md:genre>
+    <md:length>04.19</md:length>
+    <md:year>2013</md:year>
+    <md:listeners>2.978.282.070</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/Closer">
+    <md:artist>The Chainsmokers, Halsey</md:artist>
+    <md:genre>Future Bass, Pop</md:genre>
+    <md:length>04.04</md:length>
+    <md:year>2016</md:year>
+    <md:listeners>2.497.937.306</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/Memories">
+    <md:artist>Maroon 5</md:artist>
+    <md:genre>Pop</md:genre>
+    <md:length>03.09</md:length>
+    <md:year>2019</md:year>
+    <md:listeners>502.576.927</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/Señorita">
+    <md:artist>Camila Cabello, Shawn Mendes</md:artist>
+    <md:genre>Latin Pop</md:genre>
+    <md:length>03.11</md:length>
+    <md:year>2019</md:year>
+    <md:listeners>1.027.373.447</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/Girls Like you">
+    <md:artist>Maroon 5, Cardi B</md:artist>
+    <md:genre>Pop</md:genre>
+    <md:length>03.55</md:length>
+    <md:year>2018</md:year>
+    <md:listeners>2.680.847.003</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/That's What I Like">
+    <md:artist>Bruno Mars</md:artist>
+    <md:genre>Hip Hop Soul, RnB</md:genre>
+    <md:length>03.26</md:length>
+    <md:year>2017</md:year>
+    <md:listeners>1.679.239.698</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/Bang Bang">
+    <md:artist>Ariana Grande, Jessie J, Nicki Minaj</md:artist>
+    <md:genre>Pop</md:genre>
+    <md:length>03.19</md:length>
+    <md:year>2014</md:year>
+    <md:listeners>1.498.345.331</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/Taki Taki">
+    <md:artist>DJ Snake, Selena Gomez, Ozuna, Cardi B</md:artist>
+    <md:genre>Moombahton</md:genre>
+    <md:length>03.32</md:length>
+    <md:year>2018</md:year>
+    <md:listeners>1.804.726.191</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/Despacito">
+    <md:artist>Luis Fonsi, Daddy Yankee</md:artist>
+    <md:genre>Reggaeton, Latin Pop</md:genre>
+    <md:length>03.47</md:length>
+    <md:year>2017</md:year>
+    <md:listeners>6.787.371.954</md:listeners>
+</rdf:Description>
+
+<rdf:Description
+rdf:about="http://trendmusic.com/See You Again">
+    <md:artist>Wiz Khalifa, Charlie Puth</md:artist>
+    <md:genre>Hip Hop</md:genre>
+    <md:length>03.49</md:length>
+    <md:year>2015</md:year>
+    <md:listeners>4.570.379.021</md:listeners>
+</rdf:Description>
+</rdf:RDF>
