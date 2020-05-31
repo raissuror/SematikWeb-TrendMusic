@@ -28,28 +28,6 @@ function App() {
                       <span className="logo_text">TrendMusic</span>
                     </a>
                   </div>
-                  {/* Main Navigation */}
-                  <nav className="main_nav">
-                    <ul className="d-flex flex-row align-items-center justify-content-start">
-                      <li className="active"><a href="index.html">Home</a></li>
-                      <li><a href="artists.html">Artists</a></li>
-                      <li><a href="blog.html">News</a></li>
-                      <li><a href="contact.html">Contact</a></li>
-                    </ul>
-                  </nav>
-                  {/* User area */}
-                  <div className="log_reg d-flex flex-row align-items-center justify-content-start">
-                    <ul className="d-flex flex-row align-items-start justify-content-start">
-                      <li><a href="#">Login</a></li>
-                      <li><a href="#">Register</a></li>
-                    </ul>
-                    {/* Hamburger */}
-                    <div className="hamburger d-flex flex-column align-items-end justify-content-between">
-                      <div />
-                      <div />
-                      <div />
-                    </div>
-                  </div>
                 </div>
               </div>
             </div>
@@ -190,102 +168,6 @@ function App() {
                 </div>
               </div>
             </div>
-            {/* Home Slider Navigation */}
-            <div className="home_slider_nav"><i className="fa fa-angle-right" aria-hidden="true" /></div>
-            {/* Home Social */}
-            <div className="home_social">
-              <div className="d-flex flex-row align-items-center justify-content-start">
-                <div className="home_social_text">follow</div>
-                <div className="home_social_list">
-                  <ul className="d-flex flex-row align-items-center justify-content-start">
-                    <li><a href="#"><i className="fa fa-pinterest" aria-hidden="true" /></a></li>
-                    <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
-                    <li><a href="#"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
-                    <li><a href="#"><i className="fa fa-dribbble" aria-hidden="true" /></a></li>
-                    <li><a href="#"><i className="fa fa-behance" aria-hidden="true" /></a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            {/* Scroll Down */}
-            <div className="scroll_down scroll_down_link" data-scroll-to=".tours">
-              <a href="#" />
-              <div className="d-flex flex-row align-items-center justify-content-start">
-                <div>scroll down</div>
-                <div className="scroll_arrows d-flex flex-column align-items-start justify-content-start">
-                  <img src="images/arrow_down.png" alt="" />
-                  <img src="images/arrow_down.png" alt="" />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/* Song */}
-        <div className="song">
-          <div className="parallax_background parallax-window" data-parallax="scroll" data-image-src="images/song.jpg" data-speed="0.8" />
-          <div className="container">
-            <div className="row">
-              <div className="col">
-                <div className="song_content">
-                  {/* Player */}
-                  <div className="single_player_container">
-                    <div className="single_player d-flex flex-row align-items-center justify-content-start">
-                      <div id="jplayer_1" className="jp-jplayer" />
-                      <div id="jp_container_1" className="jp-audio" role="application" aria-label="media player">
-                        <div className="jp-gui jp-interface d-flex flex-lg-row flex-column align-items-start justify-content-start">
-                          {/* Player Controls */}
-                          <div className="player_controls_box d-flex flex-row align-items-start justify-content-start">
-                            <div className="order-lg-1 order-2">
-                              <div className="player_title">song of the week</div>
-                              <div className="jp-controls-holder player_controls ml-auto d-flex flex-row align-items-start justify-content-start">
-                                <button className="jp-play player_button" tabIndex={0} />
-                                <button className="jp-stop player_button" tabIndex={0} />
-                              </div>
-                            </div>
-                            <div className="song_image ml-lg-auto order-lg-2 order-1"><img src="images/song_1.jpg" alt="" /></div>
-                          </div>
-                          {/* Progress Bar */}
-                          <div className="player_bars d-flex flex-row align-items-start justify-content-start">
-                            <div className="player_progress_box">
-                              <div className="jp-current-time" role="timer" aria-label="time">00:00</div>
-                              <div className="song_info">
-                                <div className="jp-artist" aria-label="title">Michael Smith</div>
-                                <div className="jp-title" aria-label="title" />
-                              </div>
-                              <div className="jp-progress">
-                                <div className="jp-seek-bar">
-                                  <div>
-                                    <div className="jp-play-bar"><span /></div>
-                                  </div>
-                                </div>
-                              </div>
-                              <div className="jp-duration ml-auto" role="timer" aria-label="duration">02:33</div>
-                            </div>
-                            {/* Volume Controls */}
-                            <div className="jp-volume-controls ml-lg-auto">
-                              <div className="mute_button">
-                                <button className="jp-mute" tabIndex={0} />
-                              </div>
-                              <div className="d-flex flex-row align-items-center justify-content-start">
-                                <div className="jp-volume-bar">
-                                  <div>
-                                    <div className="jp-volume-bar-value" />
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                          </div>
-                        </div>
-                        <div className="jp-no-solution">
-                          <span>Update Required</span>
-                          To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
           </div>
         </div>
         {/* Tours */}
@@ -359,34 +241,6 @@ function App() {
           </div>
         </div>
         {/* App */}
-        {/* Featured */}
-        <div className="featured">
-          <div className="container">
-            <div className="row">
-              <div className="col">
-                <div className="section_title text-center">
-                  <h1>Featured Albums</h1>
-                </div>
-                <div className="featured_list">
-                  <div id="jplayer_2" className="jp-jplayer" />
-                  <div id="jp_container_2" className="jp-audio" role="application" aria-label="media player">
-                    <div className="jp-type-playlist">
-                      <div className="jp-playlist">
-                        <ul className="d-flex flex-row align-items-start justify-content-start flex-wrap">
-                          <li />
-                        </ul>
-                      </div>
-                      <div className="jp-no-solution">
-                        <span>Update Required</span>
-                        To play the media you will need to either update your browser to a recent version or update your <a href="http://get.adobe.com/flashplayer/" target="_blank">Flash plugin</a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         {/* News */}
         <div className="news">
           <div className="container">
@@ -451,19 +305,10 @@ function App() {
                   <div className="logo">
                     <a href="#" className="d-flex flex-row align-items-end justify-content-start">
                       <span className="logo_bars d-flex flex-row align-items-end justify-content-between"><span /><span /><span /><span /><span /></span>
-                      <span className="logo_text">music</span>
+                      <span className="logo_text">TrendMusic</span>
                     </a>
                   </div>
                   {/* Footer Social */}
-                  <div className="footer_social">
-                    <ul className="d-flex flex-row align-items-center justify-content-center">
-                      <li><a href="#"><i className="fa fa-pinterest" aria-hidden="true" /></a></li>
-                      <li><a href="#"><i className="fa fa-facebook" aria-hidden="true" /></a></li>
-                      <li><a href="#"><i className="fa fa-twitter" aria-hidden="true" /></a></li>
-                      <li><a href="#"><i className="fa fa-dribbble" aria-hidden="true" /></a></li>
-                      <li><a href="#"><i className="fa fa-behance" aria-hidden="true" /></a></li>
-                    </ul>
-                  </div>
                 </div>
               </div>
             </div>
