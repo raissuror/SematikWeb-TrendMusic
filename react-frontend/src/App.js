@@ -23,7 +23,7 @@ function App() {
                 <div className="header_content d-flex flex-row align-items-center justify-content-center">
                   {/* Logo */}
                   <div className="logo">
-                    <a href="#" className="d-flex flex-row align-items-end justify-content-start">
+                    <a className="d-flex flex-row align-items-end justify-content-start">
                       <span className="logo_bars d-flex flex-row align-items-end justify-content-between"><span /><span /><span /><span /><span /></span>
                       <span className="logo_text">TrendMusic</span>
                     </a>
@@ -181,11 +181,10 @@ function App() {
                   <div className="extra_frame" />
                   <div className="extra_text">it's awesome</div>
                   <div className="extra_title_container">
-                    <div className="extra_year">2019</div>
+                    <div className="extra_year">2020</div>
                     <div className="extra_title">TOP MUSIC</div>
-                    <div className="extra_subtitle">november 2018</div>
+                    <div className="extra_subtitle">june 2020</div>
                   </div>
-                  <div className="button extra_button"><a href="#">Check</a></div>
                 </div>
               </div>
               {/* Tours Content */}
@@ -203,7 +202,6 @@ function App() {
                           <div className="tour_name"><a href="#">Judul Lagu</a></div>
                           <div className="tour_location">Penyanyi</div>
                         </div>
-                        <div className="button tour_button ml-auto"><a href="#">Check</a></div>
                       </li>
                       {/* Tour */}
                       <li className="d-flex flex-row align-items-start justify-content-start">
@@ -212,7 +210,6 @@ function App() {
                           <div className="tour_name"><a href="#">Judul Lagu</a></div>
                           <div className="tour_location">Penyanyi</div>
                         </div>
-                        <div className="button tour_button ml-auto"><a href="#">Check</a></div>
                       </li>
                       {/* Tour */}
                       <li className="d-flex flex-row align-items-start justify-content-start">
@@ -221,7 +218,6 @@ function App() {
                           <div className="tour_name"><a href="#">Judul Lagu</a></div>
                           <div className="tour_location">Penyanyi</div>
                         </div>
-                        <div className="button tour_button ml-auto"><a href="#">Check</a></div>
                       </li>
                       {/* Tour */}
                       <li className="d-flex flex-row align-items-start justify-content-start">
@@ -230,11 +226,9 @@ function App() {
                           <div className="tour_name"><a href="#">Judul Lagu</a></div>
                           <div className="tour_location">Penyanyi</div>
                         </div>
-                        <div className="button tour_button ml-auto"><a href="#">Check</a></div>
                       </li>
                     </ul>
                   </div>
-                  <div className="tours_link"><a href="#">See All Trending</a></div>
                 </div>
               </div>
             </div>
@@ -257,8 +251,7 @@ function App() {
                 <div className="news_post image_top">
                   <div className="news_post_image"><img src="images/news_1.jpg" alt="" /></div>
                   <div className="news_post_content">
-                    <div className="news_post_date"><a href="#">Oct 19, 2018</a></div>
-                    <div className="news_post_title"><a href="#">Music Seminary at Festival</a></div>
+                    <div className="news_post_title"><a>Music Seminary at Festival</a></div>
                     <div className="news_post_text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
                     </div>
@@ -269,8 +262,7 @@ function App() {
               <div className="col-xl-4 col-md-6">
                 <div className="news_post image_bottom d-flex flex-column align-items-start justify-content-start">
                   <div className="news_post_content order-md-1 order-2">
-                    <div className="news_post_date"><a href="#">Oct 19, 2018</a></div>
-                    <div className="news_post_title"><a href="#">Festival list for 2019</a></div>
+                    <div className="news_post_title"><a>Festival list for 2019</a></div>
                     <div className="news_post_text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
                     </div>
@@ -283,8 +275,7 @@ function App() {
                 <div className="news_post image_top">
                   <div className="news_post_image"><img src="images/news_3.jpg" alt="" /></div>
                   <div className="news_post_content">
-                    <div className="news_post_date"><a href="#">Oct 19, 2018</a></div>
-                    <div className="news_post_title"><a href="#">New album release in 2019</a></div>
+                    <div className="news_post_title"><a>New album release in 2019</a></div>
                     <div className="news_post_text">
                       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
                     </div>
