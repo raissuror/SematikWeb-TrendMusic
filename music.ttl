@@ -6,109 +6,109 @@ d:0    md:song         "Say So" ;
         md:genre        "Pop" ;
         md:length       "03.58" ;
         md:year         "2019" ;
-        md:listeners    "131.214.899" ;
+        md:listeners    "131.214.899" .
 
 d:1    md:song         "Yummy" ;
         md:artist       "Justin Bieber" ;
         md:genre        "Pop" ;
         md:length       "03.30" ;
         md:year         "2020" ;
-        md:listeners    "388.993.800" ;
+        md:listeners    "388.993.800" .
 
 d:2    md:song         "I'm The One" ;
         md:artist       "DJ Khaled, Justin Bieber, Quavo, Chance the Reaper, Lil Wayne" ;
         md:genre        "Hip Hop" ;
         md:length       "04.48" ;
         md:year         "2017" ;
-        md:listeners    "1.397.349.887" ;
+        md:listeners    "1.397.349.887" .
 
 d:3    md:song         "God's Plan" ;
         md:artist       "Drake" ;
         md:genre        "Pop" ;
         md:length       "03.18" ;
         md:year         "2018" ;
-        md:listeners    "1.146.649.568" ;
+        md:listeners    "1.146.649.568" .
 
 d:4    md:song         "Young Dumb And Broke" ;
         md:artist       "Khalid" ;
         md:genre        "RnB" ;
         md:length       "03.22" ;
         md:year         "2018" ;
-        md:listeners    "662.986.399" ;
+        md:listeners    "662.986.399" .
 
 d:5    md:song         "Rude" ;
         md:artist        "MAGIC!" ;
         md:genre        "Pop" ;
         md:length       "03.44" ;
         md:year         "2014" ;
-        md:listeners    "1.821.566.412" ;
+        md:listeners    "1.821.566.412" .
 
 d:6    md:song         "Counting Stars" ;
         md:artist       "OneRepublic" ;
         md:genre        "Folk Pop" ;
         md:length       "04.19" ;
-        md:year         2013" ;
-        md:listeners    "2.978.282.070" ;
+        md:year         "2013" ;
+        md:listeners    "2.978.282.070" .
 
 d:7    md:song         "Closer" ;
         md:artist       "The Chainsmokers, Halsey" ;
         md:genre        "Future Bass, Pop" ;
         md:length       "04.04" ;
         md:year         "2016" ;
-        md:listeners    "2.497.937.306" ;
+        md:listeners    "2.497.937.306" .
 
 d:8    md:song         "Memories" ;
         md:artist       "Maroon 5" ;
         md:genre        "Pop" ;
         md:length       "03.09" ;
         md:year         "2019" ;
-        md:listeners    "502.576.927" ;
+        md:listeners    "502.576.927" .
 
 d:9    md:song         "Señorita" ;
         md:artist       "Camila Cabello, Shawn Mendes" ;
         md:genre        "Latin Pop" ;
         md:length       "03.11" ;
         md:year         "2019" ;
-        md:listeners    "1.027.373.447" ;
+        md:listeners    "1.027.373.447" .
 
 d:10    md:song         "Girls Like You" ;
         md:artist       "Maroon 5, Cardi B" ;
         md:genre        "Pop" ;
         md:length       "03.55" ;
         md:year         "2018" ;
-        md:listeners    "2.680.847.003" ;
+        md:listeners    "2.680.847.003" .
 
 d:11    md:song         "That's What I Like" ;
         md:artist       "Bruno Mars" ;
         md:genre        "Hip Hop Soul, RnB" ;
         md:length       "03.26" ;
         md:year         "2017" ;
-        md:listeners    "1.679.239.698" ;
+        md:listeners    "1.679.239.698" .
 
 d:12    md:song         "Bang Bang" ;
         md:artist       "Ariana Grande, Jessie J, Nicki Minaj" ;
         md:genre        "Pop" ;
         md:length       "03.19" ;
         md:year         "2014" ;
-        md:listeners    "1.498.345.331" ;
+        md:listeners    "1.498.345.331" .
 
 d:13    md:song         "Taki Taki" ;
         md:artist       "DJ Snake, Selena Gomez, Ozuna, Cardi B" ;
         md:genre        "Moombahton" ;
         md:length       "03.32" ;
         md:year         "2018" ;
-        md:listeners    "1.804.726.191" ;
+        md:listeners    "1.804.726.191" .
 
 d:14    md:song         "Despacito" ;
         md:artist       "Luis Fonsi, Daddy Yankee" ;
         md:genre        "Reggaeton, Latin Pop" ;
         md:length       "03.47" ;
         md:year         "2017" ;
-        md:listeners    "6.787.371.954" ;
+        md:listeners    "6.787.371.954" .
 
 d:15    md:song         "See You Again" ;
         md:artist       "Wiz Khalifa, Charlie Puth" ;
         md:genre        "Hip Hop" ;
         md:length       "03.49" ;
         md:year         "2015" ;
-        md:listeners    "4.570.379.021" ;
+        md:listeners    "4.570.379.021" .

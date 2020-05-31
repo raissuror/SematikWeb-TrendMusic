@@ -1,5 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
+import axios from 'axios';
+import qs from 'qs';
+import NumberFormat from 'react-number-format';
 import './App.css';
 import './styles/artist_responsive.css';
 import './styles/artist.css';
@@ -13,6 +15,218 @@ import './styles/main_styles.css';
 import './styles/responsive.css';
 
 function App() {
+
+  const [value, setValue] = useState({
+    musics: [],
+    input: ''
+  });
+
+  const getDataSong = async () => {
+    const BASE_URL = "http://localhost:3030/trend_music/query";
+
+    const headers = {
+      'Accept': 'application/sparql-results+json,*/*;q=0.9',
+      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+    };
+
+    const queryData = {
+      query:
+        `PREFIX md: <http://trendmusic.com/musicdata#>
+  
+        SELECT ?song ?artist ?genre ?length ?year ?listeners
+        WHERE
+        {
+          ?m     md:song    ?song ;
+                md:artist    ?artist ;
+                md:genre    ?genre ;
+                md:length    ?length ;
+                md:year    ?year ;
+                md:listeners    ?listeners ;
+          FILTER contains(?song, "${value.input}") 
+        }`
+    };
+
+    try {
+      const { data } = await axios(BASE_URL, {
+        method: 'POST',
+        headers,
+        data: qs.stringify(queryData)
+      });
+      console.log(data);
+
+      // Convert Data
+      const formatted_data = data.results.bindings.map((musics, index) => formatter(musics, index));
+      console.log(formatted_data)
+
+      setValue({
+        ...value,
+        musics: formatted_data
+      });
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+
+  const getDataArtist = async () => {
+    const BASE_URL = "http://localhost:3030/trend_music/query";
+
+    const headers = {
+      'Accept': 'application/sparql-results+json,*/*;q=0.9',
+      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+    };
+
+    const queryData = {
+      query:
+        `PREFIX md: <http://trendmusic.com/musicdata#>
+  
+        SELECT ?song ?artist ?genre ?length ?year ?listeners
+        WHERE
+        {
+          ?m     md:song    ?song ;
+                md:artist    ?artist ;
+                md:genre    ?genre ;
+                md:length    ?length ;
+                md:year    ?year ;
+                md:listeners    ?listeners ;
+          FILTER contains(?artist, "${value.input}") 
+        }`
+    };
+
+    try {
+      const { data } = await axios(BASE_URL, {
+        method: 'POST',
+        headers,
+        data: qs.stringify(queryData)
+      });
+      console.log(data);
+
+      // Convert Data
+      const formatted_data = data.results.bindings.map((musics, index) => formatter(musics, index));
+      console.log(formatted_data)
+
+      setValue({
+        ...value,
+        musics: formatted_data
+      });
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+
+  const getDataGenre = async () => {
+    const BASE_URL = "http://localhost:3030/trend_music/query";
+
+    const headers = {
+      'Accept': 'application/sparql-results+json,*/*;q=0.9',
+      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+    };
+
+    const queryData = {
+      query:
+        `PREFIX md: <http://trendmusic.com/musicdata#>
+  
+        SELECT ?song ?artist ?genre ?length ?year ?listeners
+        WHERE
+        {
+          ?m     md:song    ?song ;
+                md:artist    ?artist ;
+                md:genre    ?genre ;
+                md:length    ?length ;
+                md:year    ?year ;
+                md:listeners    ?listeners ;
+          FILTER contains(?genre, "${value.input}") 
+        }`
+    };
+
+    try {
+      const { data } = await axios(BASE_URL, {
+        method: 'POST',
+        headers,
+        data: qs.stringify(queryData)
+      });
+      console.log(data);
+
+      // Convert Data
+      const formatted_data = data.results.bindings.map((musics, index) => formatter(musics, index));
+      console.log(formatted_data)
+
+      setValue({
+        ...value,
+        musics: formatted_data
+      });
+    } catch (err) {
+      console.error(err);
+    }
+  }
+  const getDataSorting = async () => {
+    const BASE_URL = "http://localhost:3030/trend_music/query";
+
+    const headers = {
+      'Accept': 'application/sparql-results+json,*/*;q=0.9',
+      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
+    };
+
+    const queryData = {
+      query:
+        `PREFIX md: <http://trendmusic.com/musicdata#>
+  
+        SELECT ?song ?artist ?genre ?length ?year ?listeners
+        WHERE
+        {
+          ?m     md:song    ?song ;
+                md:artist    ?artist ;
+                md:genre    ?genre ;
+                md:length    ?length ;
+                md:year    ?year ;
+                md:listeners    ?listeners ;
+          
+        }
+        ORDER BY DESC(?listeners)`
+    };
+
+    try {
+      const { data } = await axios(BASE_URL, {
+        method: 'POST',
+        headers,
+        data: qs.stringify(queryData)
+      });
+      console.log(data);
+
+      // Convert Data
+      const formatted_data = data.results.bindings.map((musics, index) => formatter(musics, index));
+      console.log(formatted_data)
+
+      setValue({
+        ...value,
+        musics: formatted_data
+      });
+    } catch (err) {
+      console.error(err);
+    }
+  }
+
+  const formatter = (musics, index) => {
+    
+    return {
+      "d": index,
+      "song": musics.song.value,
+      "artist": musics.artist.value,
+      "genre": musics.genre.value,
+      "length": musics.length.value,
+      "year": musics.year.value,
+      "listeners": musics.listeners.value,
+    }
+  }
+
+  const handleChange = event => {
+    setValue({
+      ...value,
+      'input': event.target.value
+    })
+  }
+
   return (
     <div className="super_container">
         {/* Header */}
@@ -67,6 +281,9 @@ function App() {
                   </div>
                 </div>
               </div>
+
+              
+
               {/* Slide */}
               <div className="slide">
                 <div className="background_image" style={{backgroundImage: 'url(images/index.jpg)'}} />
@@ -144,6 +361,21 @@ function App() {
             </div>
           </div>
         </div>
+
+        <div className="App">
+                <header className="App-header">
+                  <input onChange={handleChange} type="text" />
+                  <button onClick={function(event){ getDataSong(); getDataGenre(); getDataArtist()}}>Song/ Artist/ Genre Search</button>
+                  <button onClick={getDataSorting}>Sorting Listeners</button>
+                  <ol>
+                    {value.musics.map((item, i) => 
+                    <li key={i}>
+                      Title Song :{item.song}<br />
+                      Listen : <NumberFormat value={item.listeners} displayType={'text'} thousandSeparator={true}/></li>)}
+                  </ol>
+                </header>
+              </div>
+
         {/* Tours */}
         <div className="tours">
           <div className="container">
@@ -173,7 +405,7 @@ function App() {
                       <li className="d-flex flex-row align-items-start justify-content-start">
                         <div className="tour_info">
                           <div className="tour_date">Sun, 21 Oct 2018</div>
-                          <div className="tour_name"><a href="#">Judul Lagu</a></div>
+                          <div className="tour_name">Judul Lagu</div>
                           <div className="tour_location">Penyanyi</div>
                         </div>
                       </li>
@@ -181,7 +413,7 @@ function App() {
                       <li className="d-flex flex-row align-items-start justify-content-start">
                         <div className="tour_info">
                           <div className="tour_date">Mon, 22 Oct 2018</div>
-                          <div className="tour_name"><a href="#">Judul Lagu</a></div>
+                          <div className="tour_name">Judul Lagu</div>
                           <div className="tour_location">Penyanyi</div>
                         </div>
                       </li>
@@ -189,7 +421,7 @@ function App() {
                       <li className="d-flex flex-row align-items-start justify-content-start">
                         <div className="tour_info">
                           <div className="tour_date">Tue, 23 Oct 2018</div>
-                          <div className="tour_name"><a href="#">Judul Lagu</a></div>
+                          <div className="tour_name">Judul Lagu</div>
                           <div className="tour_location">Penyanyi</div>
                         </div>
                       </li>
@@ -197,7 +429,7 @@ function App() {
                       <li className="d-flex flex-row align-items-start justify-content-start">
                         <div className="tour_info">
                           <div className="tour_date">Wed, 24 Oct 2018</div>
-                          <div className="tour_name"><a href="#">Judul Lagu</a></div>
+                          <div className="tour_name">Judul Lagu</div>
                           <div className="tour_location">Penyanyi</div>
                         </div>
                       </li>
@@ -284,7 +516,7 @@ function App() {
                 <div className="col">
                   <div className="copyright text-center">
                     {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                    Copyright © All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true" /> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    Copyright © All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true" /> by <a target="_blank">Colorlib</a>
                     {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
                   </div>
                 </div>
