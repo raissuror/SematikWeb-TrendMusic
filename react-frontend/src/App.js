@@ -55,7 +55,7 @@ function App() {
                             <form action="#" className="music_form">
                               <div className="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
                                 <div className="music_form_inputs d-flex flex-row align-items-start justify-content-between">
-                                  <input type="text" className="music_form_input" placeholder="Music" required="required" />
+                                  <input type="text" className="music_form_input" placeholder="Search artist, music and genre" required="required" />
                                 </div>
                                 <button className="music_form_button button"><span>Search</span></button>
                               </div>
