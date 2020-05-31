@@ -107,11 +107,11 @@
 													<h1>Trend <span>Music.</span></h1>
 												</div>
 											</div>
-											<div class="tickets_form_container">
-												<form action="#" class="tickets_form">
+											<div class="music_form_container">
+												<form action="#" class="music_form">
 													<div class="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
-														<div class="tickets_form_inputs d-flex flex-row align-items-start justify-content-between">
-															<div class="custom_dropdown tickets_form_input cdd">
+														<div class="music_form_inputs d-flex flex-row align-items-start justify-content-between">
+															<div class="custom_dropdown music_form_input cdd">
 																<div class="custom_dropdown_selected cdd">Genre</div>
 																<ul class="cdd">
 																	<li>Genre 1</li>
@@ -119,9 +119,9 @@
 																	<li>Genre 3</li>
 																</ul>
 															</div>
-															<input type="text" class="tickets_form_input" placeholder="Music" required="required">
+															<input type="text" class="music_form_input" placeholder="Music" required="required">
 														</div>
-														<button class="tickets_form_button button"><span>Search</span></button>
+														<button class="music_form_button button"><span>Search</span></button>
 													</div>
 												</form>
 											</div>
@@ -145,11 +145,11 @@
 													<h1>your <span>music.</span></h1>
 												</div>
 											</div>
-											<div class="tickets_form_container">
-												<form action="#" class="tickets_form">
+											<div class="music_form_container">
+												<form action="#" class="music_form">
 													<div class="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
-														<div class="tickets_form_inputs d-flex flex-row align-items-start justify-content-between">
-															<div class="custom_dropdown tickets_form_input cdd">
+														<div class="music_form_inputs d-flex flex-row align-items-start justify-content-between">
+															<div class="custom_dropdown music_form_input cdd">
 																<div class="custom_dropdown_selected cdd">Event</div>
 																<ul class="cdd">
 																	<li>Event 1</li>
@@ -157,9 +157,9 @@
 																	<li>Event 3</li>
 																</ul>
 															</div>
-															<input type="text" class="tickets_form_input" placeholder="Tickets" required="required">
+															<input type="text" class="music_form_input" placeholder="music" required="required">
 														</div>
-														<button class="tickets_form_button button"><span>get your tickets</span></button>
+														<button class="music_form_button button"><span>get your music</span></button>
 													</div>
 												</form>
 											</div>
@@ -183,11 +183,11 @@
 													<h1>your <span>music.</span></h1>
 												</div>
 											</div>
-											<div class="tickets_form_container">
-												<form action="#" class="tickets_form">
+											<div class="music_form_container">
+												<form action="#" class="music_form">
 													<div class="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
-														<div class="tickets_form_inputs d-flex flex-row align-items-start justify-content-between">
-															<div class="custom_dropdown tickets_form_input cdd">
+														<div class="music_form_inputs d-flex flex-row align-items-start justify-content-between">
+															<div class="custom_dropdown music_form_input cdd">
 																<div class="custom_dropdown_selected cdd">Event</div>
 																<ul class="cdd">
 																	<li>Event 1</li>
@@ -195,9 +195,9 @@
 																	<li>Event 3</li>
 																</ul>
 															</div>
-															<input type="text" class="tickets_form_input" placeholder="Tickets" required="required">
+															<input type="text" class="music_form_input" placeholder="music" required="required">
 														</div>
-														<button class="tickets_form_button button"><span>get your tickets</span></button>
+														<button class="music_form_button button"><span>get your music</span></button>
 													</div>
 												</form>
 											</div>

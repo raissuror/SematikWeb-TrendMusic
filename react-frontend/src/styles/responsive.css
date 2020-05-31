@@ -144,7 +144,7 @@
 	{
 		font-size: 72px;
 	}
-	.tickets_form_container
+	.music_form_container
 	{
 		padding-left: 0;
 		padding-right: 0;
@@ -280,11 +280,11 @@
 	{
 		padding-top: 46px;
 	}
-	.tickets_form_inputs
+	.music_form_inputs
 	{
 		width: 100%;
 	}
-	.tickets_form_button
+	.music_form_button
 	{
 		width: 170px;
 		font-size: 12px;
@@ -385,29 +385,29 @@
 	{
 		font-size: 48px;
 	}
-	.tickets_form_input
+	.music_form_input
 	{
 		height: 48px;
 		padding-left: 25px;
 		border-radius: 18px;
 	}
-	.tickets_form_input::-webkit-input-placeholder
+	.music_form_input::-webkit-input-placeholder
 	{
 		font-size: 14px !important;
 	}
-	.tickets_form_input:-moz-placeholder
+	.music_form_input:-moz-placeholder
 	{
 		font-size: 14px !important;
 	}
-	.tickets_form_input::-moz-placeholder
+	.music_form_input::-moz-placeholder
 	{
 		font-size: 14px !important;
 	} 
-	.tickets_form_input:-ms-input-placeholder
+	.music_form_input:-ms-input-placeholder
 	{ 
 		font-size: 14px !important;
 	}
-	.tickets_form_input::input-placeholder
+	.music_form_input::input-placeholder
 	{
 		font-size: 14px !important;
 	}
@@ -416,7 +416,7 @@
 		font-size: 14px !important;
 		line-height: 48px;
 	}
-	.tickets_form_button
+	.music_form_button
 	{
 		
 	}

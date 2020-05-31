@@ -33,24 +33,6 @@ function App() {
             </div>
           </div>
         </header>
-        {/* Menu */}
-        <div className="menu">
-          <div className="menu_container">
-            <div className="menu_background" />
-            <div className="menu_close"><i className="fa fa-times" aria-hidden="true" /></div>
-            <div className="menu_content d-flex flex-column align-items-center justify-content-start">
-              <nav className="menu_nav">
-                <ul className="d-flex flex-column align-items-center justify-content-start">
-                  <li><a href="index.html">Home</a></li>
-                  <li><a href="artists.html">Artists</a></li>
-                  <li><a href="#">Download Music</a></li>
-                  <li><a href="blog.html">News</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-                </ul>
-              </nav>
-            </div>
-          </div>
-        </div>
         {/* Home */}
         <div className="home">
           {/* Home Slider */}
@@ -69,21 +51,13 @@ function App() {
                               <h1>Trend <span>Music.</span></h1>
                             </div>
                           </div>
-                          <div className="tickets_form_container">
-                            <form action="#" className="tickets_form">
+                          <div className="music_form_container">
+                            <form action="#" className="music_form">
                               <div className="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
-                                <div className="tickets_form_inputs d-flex flex-row align-items-start justify-content-between">
-                                  <div className="custom_dropdown tickets_form_input cdd">
-                                    <div className="custom_dropdown_selected cdd">Genre</div>
-                                    <ul className="cdd">
-                                      <li>Genre 1</li>
-                                      <li>Genre 2</li>
-                                      <li>Genre 3</li>
-                                    </ul>
-                                  </div>
-                                  <input type="text" className="tickets_form_input" placeholder="Music" required="required" />
+                                <div className="music_form_inputs d-flex flex-row align-items-start justify-content-between">
+                                  <input type="text" className="music_form_input" placeholder="Music" required="required" />
                                 </div>
-                                <button className="tickets_form_button button"><span>Search</span></button>
+                                <button className="music_form_button button"><span>Search</span></button>
                               </div>
                             </form>
                           </div>
@@ -106,11 +80,11 @@ function App() {
                               <h1>your <span>music.</span></h1>
                             </div>
                           </div>
-                          <div className="tickets_form_container">
-                            <form action="#" className="tickets_form">
+                          <div className="music_form_container">
+                            <form action="#" className="music_form">
                               <div className="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
-                                <div className="tickets_form_inputs d-flex flex-row align-items-start justify-content-between">
-                                  <div className="custom_dropdown tickets_form_input cdd">
+                                <div className="music_form_inputs d-flex flex-row align-items-start justify-content-between">
+                                  <div className="custom_dropdown music_form_input cdd">
                                     <div className="custom_dropdown_selected cdd">Event</div>
                                     <ul className="cdd">
                                       <li>Event 1</li>
@@ -118,9 +92,9 @@ function App() {
                                       <li>Event 3</li>
                                     </ul>
                                   </div>
-                                  <input type="text" className="tickets_form_input" placeholder="Tickets" required="required" />
+                                  <input type="text" className="music_form_input" placeholder="music" required="required" />
                                 </div>
-                                <button className="tickets_form_button button"><span>get your tickets</span></button>
+                                <button className="music_form_button button"><span>get your music</span></button>
                               </div>
                             </form>
                           </div>
@@ -143,11 +117,11 @@ function App() {
                               <h1>your <span>music.</span></h1>
                             </div>
                           </div>
-                          <div className="tickets_form_container">
-                            <form action="#" className="tickets_form">
+                          <div className="music_form_container">
+                            <form action="#" className="music_form">
                               <div className="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
-                                <div className="tickets_form_inputs d-flex flex-row align-items-start justify-content-between">
-                                  <div className="custom_dropdown tickets_form_input cdd">
+                                <div className="music_form_inputs d-flex flex-row align-items-start justify-content-between">
+                                  <div className="custom_dropdown music_form_input cdd">
                                     <div className="custom_dropdown_selected cdd">Event</div>
                                     <ul className="cdd">
                                       <li>Event 1</li>
@@ -155,9 +129,9 @@ function App() {
                                       <li>Event 3</li>
                                     </ul>
                                   </div>
-                                  <input type="text" className="tickets_form_input" placeholder="Tickets" required="required" />
+                                  <input type="text" className="music_form_input" placeholder="music" required="required" />
                                 </div>
-                                <button className="tickets_form_button button"><span>get your tickets</span></button>
+                                <button className="music_form_button button"><span>get your music</span></button>
                               </div>
                             </form>
                           </div>

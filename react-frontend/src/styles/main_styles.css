@@ -756,24 +756,24 @@ section
 {
 	color: #eeff2d;
 }
-.tickets_form_container
+.music_form_container
 {
 	margin-top: 40px;
 	padding-left: 150px;
 	padding-right: 150px;
 }
-.tickets_form
+.music_form
 {
 	display: block;
 }
-.tickets_form_inputs
+.music_form_inputs
 {
 	width: calc(100% - 213px);
 }
-.tickets_form_input
+.music_form_input
 {
 	position: relative;
-	width: calc((100% - 16px) / 2);
+	width: calc((100% - 16px));
 	height: 56px;
 	border-radius: 22px;
 	border: solid 2px #ffffff;
@@ -783,31 +783,31 @@ section
 	padding-left: 37px;
 	outline: none;
 }
-.tickets_form_input::-webkit-input-placeholder
+.music_form_input::-webkit-input-placeholder
 {
 	font-size: 16px !important;
 	font-weight: 600 !important;
 	color: #FFFFFF !important;
 }
-.tickets_form_input:-moz-placeholder
+.music_form_input:-moz-placeholder
 {
 	font-size: 16px !important;
 	font-weight: 600 !important;
 	color: #FFFFFF !important;
 }
-.tickets_form_input::-moz-placeholder
+.music_form_input::-moz-placeholder
 {
 	font-size: 16px !important;
 	font-weight: 600 !important;
 	color: #FFFFFF !important;
 } 
-.tickets_form_input:-ms-input-placeholder
+.music_form_input:-ms-input-placeholder
 { 
 	font-size: 16px !important;
 	font-weight: 600 !important;
 	color: #FFFFFF !important;
 }
-.tickets_form_input::input-placeholder
+.music_form_input::input-placeholder
 {
 	font-size: 16px !important;
 	font-weight: 600 !important;
@@ -868,7 +868,7 @@ section
 {
 	color: #2e9e7a;
 }
-.tickets_form_button
+.music_form_button
 {
 	width: 200px;
 	height: 56px;
@@ -882,7 +882,7 @@ section
 	cursor: pointer;
 	
 }
-.tickets_form_button span
+.music_form_button span
 {
 	position: relative;
 	z-index: 1;
