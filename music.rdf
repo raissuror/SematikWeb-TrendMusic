@@ -17,6 +17,7 @@ rdf:about="http://trendmusic.com/01d01">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d02">
+    <md:song>Yummy</md:song>
     <md:artist>Justin Bieber</md:artist>
     <md:genre>Pop</md:genre>
     <md:length>03.30</md:length>
@@ -26,6 +27,7 @@ rdf:about="http://trendmusic.com/01d02">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d03">
+    <md:song>I'm The One</md:song>
     <md:artist>DJ Khaled, Justin Bieber, Quavo, Chance the Reaper, Lil Wayne</md:artist>
     <md:genre>Hip Hop</md:genre>
     <md:length>04.48</md:length>
@@ -35,6 +37,7 @@ rdf:about="http://trendmusic.com/01d03">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d04">
+    <md:song>God's Plan</md:song>
     <md:artist>Drake</md:artist>
     <md:genre>Pop</md:genre>
     <md:length>03.18</md:length>
@@ -44,6 +47,7 @@ rdf:about="http://trendmusic.com/01d04">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d05">
+    <md:song>Young Dumb And Broke</md:song>
     <md:artist>Khalid</md:artist>
     <md:genre>RnB</md:genre>
     <md:length>03.22</md:length>
@@ -53,6 +57,7 @@ rdf:about="http://trendmusic.com/01d05">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d06">
+    <md:song>Rude</md:song>
     <md:artist>MAGIC!</md:artist>
     <md:genre>Pop</md:genre>
     <md:length>03.44</md:length>
@@ -62,6 +67,7 @@ rdf:about="http://trendmusic.com/01d06">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d07">
+    <md:song>Counting Stars</md:song>
     <md:artist>OneRepublic</md:artist>
     <md:genre>Folk Pop</md:genre>
     <md:length>04.19</md:length>
@@ -71,6 +77,7 @@ rdf:about="http://trendmusic.com/01d07">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d08">
+    <md:song>Closer</md:song>
     <md:artist>The Chainsmokers, Halsey</md:artist>
     <md:genre>Future Bass, Pop</md:genre>
     <md:length>04.04</md:length>
@@ -80,6 +87,7 @@ rdf:about="http://trendmusic.com/01d08">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d09">
+    <md:song>Memories</md:song>
     <md:artist>Maroon 5</md:artist>
     <md:genre>Pop</md:genre>
     <md:length>03.09</md:length>
@@ -89,6 +97,7 @@ rdf:about="http://trendmusic.com/01d09">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d10">
+    <md:song>Señorita</md:song>
     <md:artist>Camila Cabello, Shawn Mendes</md:artist>
     <md:genre>Latin Pop</md:genre>
     <md:length>03.11</md:length>
@@ -98,6 +107,7 @@ rdf:about="http://trendmusic.com/01d10">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d11">
+    <md:song>Girls Like You</md:song>
     <md:artist>Maroon 5, Cardi B</md:artist>
     <md:genre>Pop</md:genre>
     <md:length>03.55</md:length>
@@ -107,6 +117,7 @@ rdf:about="http://trendmusic.com/01d11">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d12">
+    <md:song>That's What I Like</md:song>
     <md:artist>Bruno Mars</md:artist>
     <md:genre>Hip Hop Soul, RnB</md:genre>
     <md:length>03.26</md:length>
@@ -116,6 +127,7 @@ rdf:about="http://trendmusic.com/01d12">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d13">
+    <md:song>Bang Bang</md:song>
     <md:artist>Ariana Grande, Jessie J, Nicki Minaj</md:artist>
     <md:genre>Pop</md:genre>
     <md:length>03.19</md:length>
@@ -125,6 +137,7 @@ rdf:about="http://trendmusic.com/01d13">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d14">
+    <md:song>Taki Taki</md:song>
     <md:artist>DJ Snake, Selena Gomez, Ozuna, Cardi B</md:artist>
     <md:genre>Moombahton</md:genre>
     <md:length>03.32</md:length>
@@ -134,6 +147,7 @@ rdf:about="http://trendmusic.com/01d14">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d15">
+    <md:song>Despacito</md:song>
     <md:artist>Luis Fonsi, Daddy Yankee</md:artist>
     <md:genre>Reggaeton, Latin Pop</md:genre>
     <md:length>03.47</md:length>
@@ -143,6 +157,7 @@ rdf:about="http://trendmusic.com/01d15">
 
 <rdf:Description
 rdf:about="http://trendmusic.com/01d16">
+    <md:song>See You Again</md:song>
     <md:artist>Wiz Khalifa, Charlie Puth</md:artist>
     <md:genre>Hip Hop</md:genre>
     <md:length>03.49</md:length>
