@@ -6,7 +6,7 @@ xmlns:md="http://trendmusic.com/musicdata#"
 xmlns:d="http://trendmusic.com/data#">
 
 <rdf:Description 
-rdf:about="http://trendmusic.com/01d01">
+rdf:about="http://trendmusic.com/0">
     <md:song>Say So</md:artist>
     <md:artist>Doja Cat</md:artist>
     <md:genre>Pop</md:genre>
@@ -16,7 +16,7 @@ rdf:about="http://trendmusic.com/01d01">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d02">
+rdf:about="http://trendmusic.com/1">
     <md:song>Yummy</md:song>
     <md:artist>Justin Bieber</md:artist>
     <md:genre>Pop</md:genre>
@@ -26,7 +26,7 @@ rdf:about="http://trendmusic.com/01d02">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d03">
+rdf:about="http://trendmusic.com/2">
     <md:song>I'm The One</md:song>
     <md:artist>DJ Khaled, Justin Bieber, Quavo, Chance the Reaper, Lil Wayne</md:artist>
     <md:genre>Hip Hop</md:genre>
@@ -36,7 +36,7 @@ rdf:about="http://trendmusic.com/01d03">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d04">
+rdf:about="http://trendmusic.com/3">
     <md:song>God's Plan</md:song>
     <md:artist>Drake</md:artist>
     <md:genre>Pop</md:genre>
@@ -46,7 +46,7 @@ rdf:about="http://trendmusic.com/01d04">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d05">
+rdf:about="http://trendmusic.com/4">
     <md:song>Young Dumb And Broke</md:song>
     <md:artist>Khalid</md:artist>
     <md:genre>RnB</md:genre>
@@ -56,7 +56,7 @@ rdf:about="http://trendmusic.com/01d05">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d06">
+rdf:about="http://trendmusic.com/5">
     <md:song>Rude</md:song>
     <md:artist>MAGIC!</md:artist>
     <md:genre>Pop</md:genre>
@@ -66,7 +66,7 @@ rdf:about="http://trendmusic.com/01d06">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d07">
+rdf:about="http://trendmusic.com/6">
     <md:song>Counting Stars</md:song>
     <md:artist>OneRepublic</md:artist>
     <md:genre>Folk Pop</md:genre>
@@ -76,7 +76,7 @@ rdf:about="http://trendmusic.com/01d07">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d08">
+rdf:about="http://trendmusic.com/7">
     <md:song>Closer</md:song>
     <md:artist>The Chainsmokers, Halsey</md:artist>
     <md:genre>Future Bass, Pop</md:genre>
@@ -86,7 +86,7 @@ rdf:about="http://trendmusic.com/01d08">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d09">
+rdf:about="http://trendmusic.com/8">
     <md:song>Memories</md:song>
     <md:artist>Maroon 5</md:artist>
     <md:genre>Pop</md:genre>
@@ -96,7 +96,7 @@ rdf:about="http://trendmusic.com/01d09">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d10">
+rdf:about="http://trendmusic.com/9">
     <md:song>Señorita</md:song>
     <md:artist>Camila Cabello, Shawn Mendes</md:artist>
     <md:genre>Latin Pop</md:genre>
@@ -106,7 +106,7 @@ rdf:about="http://trendmusic.com/01d10">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d11">
+rdf:about="http://trendmusic.com/10">
     <md:song>Girls Like You</md:song>
     <md:artist>Maroon 5, Cardi B</md:artist>
     <md:genre>Pop</md:genre>
@@ -116,7 +116,7 @@ rdf:about="http://trendmusic.com/01d11">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d12">
+rdf:about="http://trendmusic.com/11">
     <md:song>That's What I Like</md:song>
     <md:artist>Bruno Mars</md:artist>
     <md:genre>Hip Hop Soul, RnB</md:genre>
@@ -126,7 +126,7 @@ rdf:about="http://trendmusic.com/01d12">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d13">
+rdf:about="http://trendmusic.com/12">
     <md:song>Bang Bang</md:song>
     <md:artist>Ariana Grande, Jessie J, Nicki Minaj</md:artist>
     <md:genre>Pop</md:genre>
@@ -136,7 +136,7 @@ rdf:about="http://trendmusic.com/01d13">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d14">
+rdf:about="http://trendmusic.com/13">
     <md:song>Taki Taki</md:song>
     <md:artist>DJ Snake, Selena Gomez, Ozuna, Cardi B</md:artist>
     <md:genre>Moombahton</md:genre>
@@ -146,7 +146,7 @@ rdf:about="http://trendmusic.com/01d14">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d15">
+rdf:about="http://trendmusic.com/14">
     <md:song>Despacito</md:song>
     <md:artist>Luis Fonsi, Daddy Yankee</md:artist>
     <md:genre>Reggaeton, Latin Pop</md:genre>
@@ -156,7 +156,7 @@ rdf:about="http://trendmusic.com/01d15">
 </rdf:Description>
 
 <rdf:Description
-rdf:about="http://trendmusic.com/01d16">
+rdf:about="http://trendmusic.com/15">
     <md:song>See You Again</md:song>
     <md:artist>Wiz Khalifa, Charlie Puth</md:artist>
     <md:genre>Hip Hop</md:genre>
