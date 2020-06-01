@@ -158,7 +158,7 @@ rdf:about="http://trendmusic.com/14">
 <rdf:Description
 rdf:about="http://trendmusic.com/15">
     <md:title>See You Again</md:title>
-    <md:artist>Wiz Khalifa, Charlie Puth</md:artist>
+    <md:artist>Wiz Khalifa, Charlie Puth </md:artist>
     <md:genre>Hip Hop</md:genre>
     <md:length>03.49</md:length>
     <md:year>2015</md:year>
