@@ -230,7 +230,7 @@
 				</div>
 
 				<!-- Scroll Down -->
-				<div class="scroll_down scroll_down_link" data-scroll-to=".tours">
+				<div class="scroll_down scroll_down_link" data-scroll-to=".musics">
 					<a href="#"></a>
 					<div class="d-flex flex-row align-items-center justify-content-start">
 						<div>scroll down</div>
@@ -320,14 +320,14 @@
 			</div>
 		</div>
 
-		<!-- Tours -->
+		<!-- musics -->
 
-		<div class="tours">
+		<div class="musics">
 			<div class="container">
 				<div class="row row-lg-eq-height">
 
 					<!-- Add -->
-					<div class="col-lg-4 order-lg-1 order-2 tours_col">
+					<div class="col-lg-4 order-lg-1 order-2 musics_col">
 						<div class="extra d-flex flex-column align-items-center justify-content-between">
 							<div class="background_image" style="background-image:url(images/extra_1.jpg)"></div>
 							<div class="extra_frame"></div>
@@ -341,58 +341,58 @@
 						</div>
 					</div>
 
-					<!-- Tours Content -->
+					<!-- musics Content -->
 					<div class="col-lg-8 order-lg-2 order-1">
-						<div class="tours_content">
+						<div class="musics_content">
 							<div class="section_title">
 								<h1>Trending</h1>
 							</div>
-							<div class="tours_list_container">
-								<ul class="tours_list">
+							<div class="musics_list_container">
+								<ul class="musics_list">
 
-									<!-- Tour -->
+									<!-- music -->
 									<li class="d-flex flex-row align-items-start justify-content-start">
-										<div class="tour_info">
-											<div class="tour_date">Sun, 21 Oct 2018</div>
-											<div class="tour_name"><a href="#">Judul Lagu</a></div>
-											<div class="tour_location">Penyanyi</div>
+										<div class="music_info">
+											<div class="music_title">Sun, 21 Oct 2018</div>
+											<div class="music_name"><a href="#">Judul Lagu</a></div>
+											<div class="music_artist">Penyanyi</div>
 										</div>
-										<div class="button tour_button ml-auto"><a href="#">Check</a></div>
+										<div class="button music_button ml-auto"><a href="#">Check</a></div>
 									</li>
 
-									<!-- Tour -->
+									<!-- music -->
 									<li class="d-flex flex-row align-items-start justify-content-start">
-										<div class="tour_info">
-											<div class="tour_date">Mon, 22 Oct 2018</div>
-											<div class="tour_name"><a href="#">Judul Lagu</a></div>
-											<div class="tour_location">Penyanyi</div>
+										<div class="music_info">
+											<div class="music_title">Mon, 22 Oct 2018</div>
+											<div class="music_name"><a href="#">Judul Lagu</a></div>
+											<div class="music_artist">Penyanyi</div>
 										</div>
-										<div class="button tour_button ml-auto"><a href="#">Check</a></div>
+										<div class="button music_button ml-auto"><a href="#">Check</a></div>
 									</li>
 
-									<!-- Tour -->
+									<!-- music -->
 									<li class="d-flex flex-row align-items-start justify-content-start">
-										<div class="tour_info">
-											<div class="tour_date">Tue, 23 Oct 2018</div>
-											<div class="tour_name"><a href="#">Judul Lagu</a></div>
-											<div class="tour_location">Penyanyi</div>
+										<div class="music_info">
+											<div class="music_title">Tue, 23 Oct 2018</div>
+											<div class="music_name"><a href="#">Judul Lagu</a></div>
+											<div class="music_artist">Penyanyi</div>
 										</div>
-										<div class="button tour_button ml-auto"><a href="#">Check</a></div>
+										<div class="button music_button ml-auto"><a href="#">Check</a></div>
 									</li>
 
-									<!-- Tour -->
+									<!-- music -->
 									<li class="d-flex flex-row align-items-start justify-content-start">
-										<div class="tour_info">
-											<div class="tour_date">Wed, 24 Oct 2018</div>
-											<div class="tour_name"><a href="#">Judul Lagu</a></div>
-											<div class="tour_location">Penyanyi</div>
+										<div class="music_info">
+											<div class="music_title">Wed, 24 Oct 2018</div>
+											<div class="music_name"><a href="#">Judul Lagu</a></div>
+											<div class="music_artist">Penyanyi</div>
 										</div>
-										<div class="button tour_button ml-auto"><a href="#">Check</a></div>
+										<div class="button music_button ml-auto"><a href="#">Check</a></div>
 									</li>
 
 								</ul>
 							</div>
-							<div class="tours_link"><a href="#">See All Trending</a></div>
+							<div class="musics_link"><a href="#">See All Trending</a></div>
 						</div>
 					</div>
 

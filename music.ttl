@@ -1,114 +1,114 @@
-﻿@prefix md: <http://trendmusic.com/musicdata#> .
-@prefix d: <http://trendmusic.com/data#> .
+﻿@prefix d:     <http://trendmusic.com/data#> .
+@prefix md:    <http://trendmusic.com/musicdata#> .
 
-d:0     md:title         "Say So" ;
-        md:artist       "Doja Cat" ;
-        md:genre        "Pop" ;
-        md:length       "03.58" ;
-        md:year         "2019" ;
-        md:listeners    "131.214.899" .
+d:4     md:artist     "Khalid" ;
+        md:genre      "RnB" ;
+        md:length     "03.22" ;
+        md:listeners  "662986399" ;
+        md:song       "Young Dumb And Broke" ;
+        md:year       "2018" .
 
-d:1     md:title         "Yummy" ;
-        md:artist       "Justin Bieber" ;
-        md:genre        "Pop" ;
-        md:length       "03.30" ;
-        md:year         "2020" ;
-        md:listeners    "388.993.800" .
+d:12    md:artist     "Ariana Grande, Jessie J, Nicki Minaj" ;
+        md:genre      "Pop" ;
+        md:length     "03.19" ;
+        md:listeners  "1498345331" ;
+        md:song       "Bang Bang" ;
+        md:year       "2014" .
 
-d:2     md:title         "I'm The One" ;
-        md:artist       "DJ Khaled, Justin Bieber, Quavo, Chance the Reaper, Lil Wayne" ;
-        md:genre        "Hip Hop" ;
-        md:length       "04.48" ;
-        md:year         "2017" ;
-        md:listeners    "1.397.349.887" .
+d:15    md:artist     "Wiz Khalifa, Charlie Puth" ;
+        md:genre      "Hip Hop" ;
+        md:length     "03.49" ;
+        md:listeners  "4570379021" ;
+        md:song       "See You Again" ;
+        md:year       "2015" .
 
-d:3     md:title         "God's Plan" ;
-        md:artist       "Drake" ;
-        md:genre        "Pop" ;
-        md:length       "03.18" ;
-        md:year         "2018" ;
-        md:listeners    "1.146.649.568" .
+d:0     md:artist     "Doja Cat" ;
+        md:genre      "Pop" ;
+        md:length     "03.58" ;
+        md:listeners  "131214899" ;
+        md:song       "Say So" ;
+        md:year       "2019" .
 
-d:4     md:title         "Young Dumb And Broke" ;
-        md:artist       "Khalid" ;
-        md:genre        "RnB" ;
-        md:length       "03.22" ;
-        md:year         "2018" ;
-        md:listeners    "662.986.399" .
+d:11    md:artist     "Bruno Mars" ;
+        md:genre      "Hip Hop Soul, RnB" ;
+        md:length     "03.26" ;
+        md:listeners  "1679239698" ;
+        md:song       "That's What I Like" ;
+        md:year       "2017" .
 
-d:5     md:title         "Rude" ;
-        md:artist        "MAGIC!" ;
-        md:genre        "Pop" ;
-        md:length       "03.44" ;
-        md:year         "2014" ;
-        md:listeners    "1.821.566.412" .
+d:7     md:artist     "The Chainsmokers, Halsey" ;
+        md:genre      "Future Bass, Pop" ;
+        md:length     "04.04" ;
+        md:listeners  "2497937306" ;
+        md:song       "Closer" ;
+        md:year       "2016" .
 
-d:6     md:title         "Counting Stars" ;
-        md:artist       "OneRepublic" ;
-        md:genre        "Folk Pop" ;
-        md:length       "04.19" ;
-        md:year         "2013" ;
-        md:listeners    "2.978.282.070" .
+d:3     md:artist     "Drake" ;
+        md:genre      "Pop" ;
+        md:length     "03.18" ;
+        md:listeners  "1146649568" ;
+        md:song       "God's Plan" ;
+        md:year       "2018" .
 
-d:7     md:title         "Closer" ;
-        md:artist       "The Chainsmokers, Halsey" ;
-        md:genre        "Future Bass, Pop" ;
-        md:length       "04.04" ;
-        md:year         "2016" ;
-        md:listeners    "2.497.937.306" .
+d:2     md:artist     "DJ Khaled, Justin Bieber, Quavo, Chance the Reaper, Lil Wayne" ;
+        md:genre      "Hip Hop" ;
+        md:length     "04.48" ;
+        md:listeners  "1397349887" ;
+        md:song       "I'm The One" ;
+        md:year       "2017" .
 
-d:8     md:title         "Memories" ;
-        md:artist       "Maroon 5" ;
-        md:genre        "Pop" ;
-        md:length       "03.09" ;
-        md:year         "2019" ;
-        md:listeners    "502.576.927" .
+d:9     md:artist     "Camila Cabello, Shawn Mendes" ;
+        md:genre      "Latin Pop" ;
+        md:length     "03.11" ;
+        md:listeners  "1027373447" ;
+        md:song       "Señorita" ;
+        md:year       "2019" .
 
-d:9     md:title         "Señorita" ;
-        md:artist       "Camila Cabello, Shawn Mendes" ;
-        md:genre        "Latin Pop" ;
-        md:length       "03.11" ;
-        md:year         "2019" ;
-        md:listeners    "1.027.373.447" .
+d:14    md:artist     "Luis Fonsi, Daddy Yankee" ;
+        md:genre      "Reggaeton, Latin Pop" ;
+        md:length     "03.47" ;
+        md:listeners  "6787371954" ;
+        md:song       "Despacito" ;
+        md:year       "2017" .
 
-d:10    md:title         "Girls Like You" ;
-        md:artist       "Maroon 5, Cardi B" ;
-        md:genre        "Pop" ;
-        md:length       "03.55" ;
-        md:year         "2018" ;
-        md:listeners    "2.680.847.003" .
+d:10    md:artist     "Maroon 5, Cardi B" ;
+        md:genre      "Pop" ;
+        md:length     "03.55" ;
+        md:listeners  "2680847003" ;
+        md:song       "Girls Like You" ;
+        md:year       "2018" .
 
-d:11    md:title         "That's What I Like" ;
-        md:artist       "Bruno Mars" ;
-        md:genre        "Hip Hop Soul, RnB" ;
-        md:length       "03.26" ;
-        md:year         "2017" ;
-        md:listeners    "1.679.239.698" .
+d:13    md:artist     "DJ Snake, Selena Gomez, Ozuna, Cardi B" ;
+        md:genre      "Moombahton" ;
+        md:length     "03.32" ;
+        md:listeners  "1804726191" ;
+        md:song       "Taki Taki" ;
+        md:year       "2018" .
 
-d:12    md:title         "Bang Bang" ;
-        md:artist       "Ariana Grande, Jessie J, Nicki Minaj" ;
-        md:genre        "Pop" ;
-        md:length       "03.19" ;
-        md:year         "2014" ;
-        md:listeners    "1.498.345.331" .
+d:5     md:artist     "MAGIC!" ;
+        md:genre      "Pop" ;
+        md:length     "03.44" ;
+        md:listeners  "1821566412" ;
+        md:song       "Rude" ;
+        md:year       "2014" .
 
-d:13    md:title         "Taki Taki" ;
-        md:artist       "DJ Snake, Selena Gomez, Ozuna, Cardi B" ;
-        md:genre        "Moombahton" ;
-        md:length       "03.32" ;
-        md:year         "2018" ;
-        md:listeners    "1.804.726.191" .
+d:6     md:artist     "OneRepublic" ;
+        md:genre      "Folk Pop" ;
+        md:length     "04.19" ;
+        md:listeners  "2978282070" ;
+        md:song       "Counting Stars" ;
+        md:year       "2013" .
 
-d:14    md:title         "Despacito" ;
-        md:artist       "Luis Fonsi, Daddy Yankee" ;
-        md:genre        "Reggaeton, Latin Pop" ;
-        md:length       "03.47" ;
-        md:year         "2017" ;
-        md:listeners    "6.787.371.954" .
+d:8     md:artist     "Maroon 5" ;
+        md:genre      "Pop" ;
+        md:length     "03.09" ;
+        md:listeners  "502576927" ;
+        md:song       "Memories" ;
+        md:year       "2019" .
 
-d:15    md:title         "See You Again" ;
-        md:artist       "Wiz Khalifa, Charlie Puth" ;
-        md:genre        "Hip Hop" ;
-        md:length       "03.49" ;
-        md:year         "2015" ;
-        md:listeners    "4.570.379.021" .
+d:1     md:artist     "Justin Bieber" ;
+        md:genre      "Pop" ;
+        md:length     "03.30" ;
+        md:listeners  "388993800" ;
+        md:song       "Yummy" ;
+        md:year       "2020" .

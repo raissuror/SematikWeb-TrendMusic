@@ -200,7 +200,7 @@
 	{
 		left: 30px;
 	}
-	.tours_col
+	.musics_col
 	{
 		margin-top: 90px;
 	}
@@ -453,12 +453,12 @@
 	{
 		display: none;
 	}
-	.tour_date
+	.music_title
 	{
 		font-size: 20px;
 	}
-	.tour_name a,
-	.tour_location
+	.music_name a,
+	.music_artist
 	{
 		font-size: 14px;
 	}

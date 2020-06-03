@@ -269,86 +269,9 @@ function App() {
                             <form action="#" className="music_form">
                               <div className="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
                                 <div className="music_form_inputs d-flex flex-row align-items-start justify-content-between">
-                                  <input type="text" className="music_form_input" placeholder="Search artist, music and genre" required="required" />
+                                <input onChange={handleChange} type="text" className="music_form_input" placeholder="Search artist, music and genre" required="required"/>
                                 </div>
-                                <button className="music_form_button button"><span>Search</span></button>
-                              </div>
-                            </form>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              
-
-              {/* Slide */}
-              <div className="slide">
-                <div className="background_image" style={{backgroundImage: 'url(images/index.jpg)'}} />
-                <div className="home_container">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col">
-                        <div className="home_content">
-                          <div className="home_title_container text-center">
-                            <div className="home_title islive text-center">
-                              <h1>your <span>music.</span></h1>
-                            </div>
-                          </div>
-                          <div className="music_form_container">
-                            <form action="#" className="music_form">
-                              <div className="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
-                                <div className="music_form_inputs d-flex flex-row align-items-start justify-content-between">
-                                  <div className="custom_dropdown music_form_input cdd">
-                                    <div className="custom_dropdown_selected cdd">Event</div>
-                                    <ul className="cdd">
-                                      <li>Event 1</li>
-                                      <li>Event 2</li>
-                                      <li>Event 3</li>
-                                    </ul>
-                                  </div>
-                                  <input type="text" className="music_form_input" placeholder="music" required="required" />
-                                </div>
-                                <button className="music_form_button button"><span>get your music</span></button>
-                              </div>
-                            </form>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* Slide */}
-              <div className="slide">
-                <div className="background_image" style={{backgroundImage: 'url(images/index.jpg)'}} />
-                <div className="home_container">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col">
-                        <div className="home_content">
-                          <div className="home_title_container text-center">
-                            <div className="home_title islive text-center">
-                              <h1>your <span>music.</span></h1>
-                            </div>
-                          </div>
-                          <div className="music_form_container">
-                            <form action="#" className="music_form">
-                              <div className="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
-                                <div className="music_form_inputs d-flex flex-row align-items-start justify-content-between">
-                                  <div className="custom_dropdown music_form_input cdd">
-                                    <div className="custom_dropdown_selected cdd">Event</div>
-                                    <ul className="cdd">
-                                      <li>Event 1</li>
-                                      <li>Event 2</li>
-                                      <li>Event 3</li>
-                                    </ul>
-                                  </div>
-                                  <input type="text" className="music_form_input" placeholder="music" required="required" />
-                                </div>
-                                <button className="music_form_button button"><span>get your music</span></button>
+                                <button className="music_form_button button" onClick={function(event){ getDataSong(); getDataGenre(); getDataArtist()}}><span>Search</span></button>
                               </div>
                             </form>
                           </div>
@@ -362,26 +285,12 @@ function App() {
           </div>
         </div>
 
-        <div className="App">
-                <header className="App-header">
-                  <input onChange={handleChange} type="text" />
-                  <button onClick={function(event){ getDataSong(); getDataGenre(); getDataArtist()}}>Song/ Artist/ Genre Search</button>
-                  <button onClick={getDataSorting}>Sorting Listeners</button>
-                  <ol>
-                    {value.musics.map((item, i) => 
-                    <li key={i}>
-                      Title Song :{item.song}<br />
-                      Listen : <NumberFormat value={item.listeners} displayType={'text'} thousandSeparator={true}/></li>)}
-                  </ol>
-                </header>
-              </div>
-
-        {/* Tours */}
-        <div className="tours">
+        {/* musics */}
+        <div className="musics">
           <div className="container">
             <div className="row row-lg-eq-height">
               {/* Add */}
-              <div className="col-lg-4 order-lg-1 order-2 tours_col">
+              <div className="col-lg-4 order-lg-1 order-2 musics_col">
                 <div className="extra d-flex flex-column align-items-center justify-content-between">
                   <div className="background_image" style={{backgroundImage: 'url(images/extra_1.jpg)'}} />
                   <div className="extra_frame" />
@@ -393,46 +302,27 @@ function App() {
                   </div>
                 </div>
               </div>
-              {/* Tours Content */}
+              {/* musics Content */}
               <div className="col-lg-8 order-lg-2 order-1">
-                <div className="tours_content">
+                <div className="musics_content">
                   <div className="section_title">
                     <h1>Trending</h1>
+                    <button className="music_form_button button" onClick={getDataSorting}><span>See Top Music</span></button>
                   </div>
-                  <div className="tours_list_container">
-                    <ul className="tours_list">
-                      {/* Tour */}
-                      <li className="d-flex flex-row align-items-start justify-content-start">
-                        <div className="tour_info">
-                          <div className="tour_date">Sun, 21 Oct 2018</div>
-                          <div className="tour_name">Judul Lagu</div>
-                          <div className="tour_location">Penyanyi</div>
-                        </div>
-                      </li>
-                      {/* Tour */}
-                      <li className="d-flex flex-row align-items-start justify-content-start">
-                        <div className="tour_info">
-                          <div className="tour_date">Mon, 22 Oct 2018</div>
-                          <div className="tour_name">Judul Lagu</div>
-                          <div className="tour_location">Penyanyi</div>
-                        </div>
-                      </li>
-                      {/* Tour */}
-                      <li className="d-flex flex-row align-items-start justify-content-start">
-                        <div className="tour_info">
-                          <div className="tour_date">Tue, 23 Oct 2018</div>
-                          <div className="tour_name">Judul Lagu</div>
-                          <div className="tour_location">Penyanyi</div>
-                        </div>
-                      </li>
-                      {/* Tour */}
-                      <li className="d-flex flex-row align-items-start justify-content-start">
-                        <div className="tour_info">
-                          <div className="tour_date">Wed, 24 Oct 2018</div>
-                          <div className="tour_name">Judul Lagu</div>
-                          <div className="tour_location">Penyanyi</div>
-                        </div>
-                      </li>
+                  <div className="musics_list_container">
+                    <ol>
+                      {value.musics.map((item, i) => 
+                      <li key={i}>
+                        <li className="d-flex flex-row align-items-start justify-content-start"></li>
+                        <div className="music_info"></div>
+                        <div className="music_title">{item.song}<br /></div>
+                        <div className="music_artist">{item.artist}<br /></div>
+                        Genre : {item.genre}<br />
+                        Duration : {item.length}<br />
+                        Published : {item.year}<br />
+                        Listen : <NumberFormat value={item.listeners} displayType={'text'} thousandSeparator={true}/></li>)}
+                    </ol>
+                    <ul className="musics_list">
                     </ul>
                   </div>
                 </div>

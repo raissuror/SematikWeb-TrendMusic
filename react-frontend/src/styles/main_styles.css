@@ -11,7 +11,7 @@
 4. Menu
 5. Home
 6. Song
-7. Tours
+7. musics
 8. App
 9. Featured
 10. News
@@ -1340,36 +1340,36 @@ section
 }
 
 /*********************************
-7. Tours
+7. musics
 *********************************/
 
-.tours
+.musics
 {
 	background: #ffffff;
 	padding-top: 112px;
 	padding-bottom: 120px;
 }
-.tours_list_container
+.musics_list_container
 {
 	margin-top: 14px;
 }
-.tours_list li
+.musics_list li
 {
 	padding-top: 30px;
 	padding-bottom: 29px;
 }
-.tours_list li:not(:last-of-type)
+.musics_list li:not(:last-of-type)
 {
 	border-bottom: solid 2px #d5d5d5;
 }
-.tour_date
+.music_title
 {
 	font-size: 30px;
 	font-weight: 400;
 	color: #2a2a2a;
 	line-height: 1.2;
 }
-.tour_location
+.music_artist
 {
 	font-size: 16px;
 	font-weight: 400;
@@ -1378,38 +1378,38 @@ section
 	padding-left: 2px;
 	margin-top: 9px;
 }
-.tour_name
+.music_name
 {
 	margin-top: 7px;
 	padding-left: 2px;
 }
-.tour_name a
+.music_name a
 {
 	font-size: 16px;
 	font-weight: 400;
 	color: #6d6d6d;
 }
-.tour_name a:hover
+.music_name a:hover
 {
 	color: #2e9e7a;
 }
-.tour_button
+.music_button
 {
 	margin-top: 17px;
 }
-.tours_link
+.musics_link
 {
 	margin-top: 14px;
 	padding-left: 5px;
 }
-.tours_link a
+.musics_link a
 {
 	position: relative;
 	font-size: 18px;
 	font-weight: 400;
 	color: #2ac275;
 }
-.tours_link a::after
+.musics_link a::after
 {
 	display: block;
 	position: absolute;
@@ -1425,11 +1425,11 @@ section
 	-o-transition: all 200ms ease;
 	transition: all 200ms ease;
 }
-.tours_link a:hover
+.musics_link a:hover
 {
 	color: #cbdc0b;
 }
-.tours_link a:hover::after
+.musics_link a:hover::after
 {
 	background: #cbdc0b;
 }
