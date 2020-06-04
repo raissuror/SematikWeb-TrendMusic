@@ -114,7 +114,6 @@ function App() {
     }
   }
 
-
   const getDataGenre = async () => {
     const BASE_URL = "http://localhost:3030/trend_music/query";
 
@@ -347,9 +346,9 @@ function App() {
                 <div className="news_post image_top">
                   <div className="news_post_image"><img src="images/news_1.jpg" alt="" /></div>
                   <div className="news_post_content">
-                    <div className="news_post_title"><a>Music Seminary at Festival</a></div>
+                    <div className="news_post_title"><a>musik/mu·sik/ n</a></div>
                     <div className="news_post_text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
+                      <p>ilmu atau seni menyusun nada atau suara dalam urutan, kombinasi, dan hubungan temporal untuk menghasilkan komposisi (suara) yang mempunyai kesatuan dan kesinam-bungan;</p>
                     </div>
                   </div>
                 </div>
@@ -358,9 +357,9 @@ function App() {
               <div className="col-xl-4 col-md-6">
                 <div className="news_post image_bottom d-flex flex-column align-items-start justify-content-start">
                   <div className="news_post_content order-md-1 order-2">
-                    <div className="news_post_title"><a>Festival list for 2019</a></div>
+                    <div className="news_post_title"><a>Apa itu TrendMusic?</a></div>
                     <div className="news_post_text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
+                      <p>TrendMusic merupakan sebuah aplikasi web semantik untuk mencari musik yang sedang trending, bisa mencari Judul, Artist dan Genre. TrendMusic ini dibuat untuk memenuhi tugas akhir mata kuliah Semantik Web.</p>
                     </div>
                   </div>
                   <div className="news_post_image order-md-2 order-1"><img src="images/news_2.jpg" alt="" /></div>
@@ -371,9 +370,9 @@ function App() {
                 <div className="news_post image_top">
                   <div className="news_post_image"><img src="images/news_3.jpg" alt="" /></div>
                   <div className="news_post_content">
-                    <div className="news_post_title"><a>New album release in 2019</a></div>
+                    <div className="news_post_title"><a>Web Semantik</a></div>
                     <div className="news_post_text">
-                      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi condimentum, neque ac porttitor scelerisque, nisi nisl tincidunt enim, non aliquet diam neque sed urna.</p>
+                      <p>Sir  Tim  Berners-Lee  mendefinisikan  Web  semantik  sebagai pengembangan  dari  web yang  ada  saat ini  dengan  informasi  yang  memiliki  makna  yang didefinisikan  dengan  baik  (well defined  meaning),  lebih  memampukan  komputer  dan manusia untuk bekerja sama (Berners-Lee, 2000).</p>
                     </div>
                   </div>
                 </div>
