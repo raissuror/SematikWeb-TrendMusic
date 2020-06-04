@@ -42,7 +42,7 @@ function App() {
                 md:length    ?length ;
                 md:year    ?year ;
                 md:listeners    ?listeners ;
-          FILTER contains(?song, "${value.input}") 
+          FILTER regex(?song, "^${value.input}","i") 
         }`
     };
 
@@ -89,7 +89,7 @@ function App() {
                 md:length    ?length ;
                 md:year    ?year ;
                 md:listeners    ?listeners ;
-          FILTER contains(?artist, "${value.input}") 
+          FILTER regex(?artist, "^${value.input}","i") 
         }`
     };
 
@@ -135,7 +135,7 @@ function App() {
                 md:length    ?length ;
                 md:year    ?year ;
                 md:listeners    ?listeners ;
-          FILTER contains(?genre, "${value.input}") 
+          FILTER regex(?genre, "^${value.input}","i") 
         }`
     };
 
