@@ -42,7 +42,7 @@ function App() {
                 md:length    ?length ;
                 md:year    ?year ;
                 md:listeners    ?listeners ;
-          FILTER regex(?song, "^${value.input}","i") 
+          FILTER (regex(?song, "^${value.input}","i") || regex(?artist, "^${value.input}","i") || regex(?genre, "^${value.input}","i"))
         }`
     };
 
@@ -67,98 +67,6 @@ function App() {
     }
   }
 
-
-  const getDataArtist = async () => {
-    const BASE_URL = "http://localhost:3030/trend_music/query";
-
-    const headers = {
-      'Accept': 'application/sparql-results+json,*/*;q=0.9',
-      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-    };
-
-    const queryData = {
-      query:
-        `PREFIX md: <http://trendmusic.com/musicdata#>
-  
-        SELECT ?song ?artist ?genre ?length ?year ?listeners
-        WHERE
-        {
-          ?m     md:song    ?song ;
-                md:artist    ?artist ;
-                md:genre    ?genre ;
-                md:length    ?length ;
-                md:year    ?year ;
-                md:listeners    ?listeners ;
-          FILTER regex(?artist, "^${value.input}","i") 
-        }`
-    };
-
-    try {
-      const { data } = await axios(BASE_URL, {
-        method: 'POST',
-        headers,
-        data: qs.stringify(queryData)
-      });
-      console.log(data);
-
-      // Convert Data
-      const formatted_data = data.results.bindings.map((musics, index) => formatter(musics, index));
-      console.log(formatted_data)
-
-      setValue({
-        ...value,
-        musics: formatted_data
-      });
-    } catch (err) {
-      console.error(err);
-    }
-  }
-
-  const getDataGenre = async () => {
-    const BASE_URL = "http://localhost:3030/trend_music/query";
-
-    const headers = {
-      'Accept': 'application/sparql-results+json,*/*;q=0.9',
-      'Content-Type': 'application/x-www-form-urlencoded; charset=UTF-8',
-    };
-
-    const queryData = {
-      query:
-        `PREFIX md: <http://trendmusic.com/musicdata#>
-  
-        SELECT ?song ?artist ?genre ?length ?year ?listeners
-        WHERE
-        {
-          ?m     md:song    ?song ;
-                md:artist    ?artist ;
-                md:genre    ?genre ;
-                md:length    ?length ;
-                md:year    ?year ;
-                md:listeners    ?listeners ;
-          FILTER regex(?genre, "^${value.input}","i") 
-        }`
-    };
-
-    try {
-      const { data } = await axios(BASE_URL, {
-        method: 'POST',
-        headers,
-        data: qs.stringify(queryData)
-      });
-      console.log(data);
-
-      // Convert Data
-      const formatted_data = data.results.bindings.map((musics, index) => formatter(musics, index));
-      console.log(formatted_data)
-
-      setValue({
-        ...value,
-        musics: formatted_data
-      });
-    } catch (err) {
-      console.error(err);
-    }
-  }
   const getDataSorting = async () => {
     const BASE_URL = "http://localhost:3030/trend_music/query";
 
@@ -270,7 +178,7 @@ function App() {
                                 <div className="music_form_inputs d-flex flex-row align-items-start justify-content-between">
                                 <input onChange={handleChange} type="text" className="music_form_input" placeholder="Search artist, music and genre" required="required"/>
                                 </div>
-                                <button className="music_form_button button" onClick={function(event){ getDataSong(); getDataGenre(); getDataArtist()}}><span>Search</span></button>
+                                <button className="music_form_button button" onClick={getDataSong}><span>Search</span></button>
                               </div>
                             </form>
                           </div>
