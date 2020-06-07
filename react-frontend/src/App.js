@@ -220,7 +220,7 @@ function App() {
                     <ol>
                       {value.musics.map((item, i) => 
                       <li key={i}>
-                        <li className="d-flex flex-row align-items-start justify-content-start"></li>
+                        <div className="d-flex flex-row align-items-start justify-content-start"></div>
                         <div className="music_info"></div>
                         <div className="music_title">{item.song}<br /></div>
                         <div className="music_artist">{item.artist}<br /></div>
