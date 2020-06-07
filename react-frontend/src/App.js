@@ -22,7 +22,9 @@ function App() {
   });
 
   const getDataSong = async () => {
-    const BASE_URL = "http://localhost:3030/trend_music/query";
+    const BASE_URL = "https://qrary-fuseki-service.herokuapp.com/trend_music/query";
+    // API server : https://qrary-fuseki-service.herokuapp.com/trend_music/query
+    // API local : http://localhost:3030/trend_music/query
 
     const headers = {
       'Accept': 'application/sparql-results+json,*/*;q=0.9',
@@ -36,13 +38,18 @@ function App() {
         SELECT ?song ?artist ?genre ?length ?year ?listeners
         WHERE
         {
-          ?m     md:song    ?song ;
-                md:artist    ?artist ;
-                md:genre    ?genre ;
-                md:length    ?length ;
-                md:year    ?year ;
-                md:listeners    ?listeners ;
-          FILTER (regex(?song, "^${value.input}","i") || regex(?artist, "^${value.input}","i") || regex(?genre, "^${value.input}","i"))
+          ?m    md:song   ?song ;
+                md:artist ?artist ;
+                md:genre  ?genre ;
+          OPTIONAL {?m  md:length ?length ;}
+          OPTIONAL {?m  md:year   ?year ;}
+          OPTIONAL {?m  md:listeners    ?listeners .}      
+        }
+          FILTER (
+            regex(?song, "^${value.input}","i") || 
+            regex(?artist, "^${value.input}","i") || 
+            regex(?genre, "^${value.input}","i")
+          )
         }`
     };
 
@@ -68,7 +75,9 @@ function App() {
   }
 
   const getDataSorting = async () => {
-    const BASE_URL = "http://localhost:3030/trend_music/query";
+    const BASE_URL = "https://qrary-fuseki-service.herokuapp.com/trend_music/query";
+    // API server : https://qrary-fuseki-service.herokuapp.com/trend_music/query
+    // API local : http://localhost:3030/trend_music/query
 
     const headers = {
       'Accept': 'application/sparql-results+json,*/*;q=0.9',
@@ -82,15 +91,14 @@ function App() {
         SELECT ?song ?artist ?genre ?length ?year ?listeners
         WHERE
         {
-          ?m     md:song    ?song ;
-                md:artist    ?artist ;
-                md:genre    ?genre ;
-                md:length    ?length ;
-                md:year    ?year ;
-                md:listeners    ?listeners ;
-          
+          ?m    md:song   ?song ;
+                md:artist ?artist ;
+                md:genre  ?genre ;
+          OPTIONAL {?m  md:length ?length ;}
+          OPTIONAL {?m  md:year   ?year ;}
+          OPTIONAL {?m  md:listeners    ?listeners .}      
         }
-        ORDER BY DESC(?listeners)`
+        ORDER BY (?listener)`
     };
 
     try {
@@ -176,9 +184,17 @@ function App() {
                             <form className="music_form">
                               <div className="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
                                 <div className="music_form_inputs d-flex flex-row align-items-start justify-content-between">
-                                <input onChange={handleChange} type="text" className="music_form_input" placeholder="Search artist, music and genre" required="required"/>
+                                <input 
+                                  // setValue={value.input} 
+                                  onChange={handleChange} 
+                                  type="text" 
+                                  className="music_form_input" 
+                                  placeholder="Search artist, music and genre" 
+                                  required="required"/>
                                 </div>
-                                <button className="music_form_button button" onClick={getDataSong}><span>Search</span></button>
+                                <button className="music_form_button button" onClick={getDataSong}>
+                                  <span>Search</span>
+                                </button>
                               </div>
                             </form>
                           </div>
