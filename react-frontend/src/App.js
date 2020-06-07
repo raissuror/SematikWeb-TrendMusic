@@ -173,7 +173,7 @@ function App() {
                             </div>
                           </div>
                           <div className="music_form_container">
-                            <form action="#" className="music_form">
+                            <form className="music_form">
                               <div className="d-flex flex-md-row flex-column align-items-start justify-content-md-between justify-content-start">
                                 <div className="music_form_inputs d-flex flex-row align-items-start justify-content-between">
                                 <input onChange={handleChange} type="text" className="music_form_input" placeholder="Search artist, music and genre" required="required"/>
@@ -297,7 +297,7 @@ function App() {
                 <div className="col text-center">
                   {/* Logo */}
                   <div className="logo">
-                    <div href="#" className="d-flex flex-row align-items-end justify-content-start">
+                    <div className="d-flex flex-row align-items-end justify-content-start">
                       <span className="logo_bars d-flex flex-row align-items-end justify-content-between"><span /><span /><span /><span /><span /></span>
                       <span className="logo_text">TrendMusic</span>
                     </div>
