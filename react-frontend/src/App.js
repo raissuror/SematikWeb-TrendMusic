@@ -144,10 +144,10 @@ function App() {
                 <div className="header_content d-flex flex-row align-items-center justify-content-center">
                   {/* Logo */}
                   <div className="logo">
-                    <a className="d-flex flex-row align-items-end justify-content-start">
+                    <div className="d-flex flex-row align-items-end justify-content-start">
                       <span className="logo_bars d-flex flex-row align-items-end justify-content-between"><span /><span /><span /><span /><span /></span>
                       <span className="logo_text">TrendMusic</span>
-                    </a>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -254,7 +254,7 @@ function App() {
                 <div className="news_post image_top">
                   <div className="news_post_image"><img src="images/news_1.jpg" alt="" /></div>
                   <div className="news_post_content">
-                    <div className="news_post_title"><a>musik/mu·sik/ n</a></div>
+                    <div className="news_post_title"><span>musik/mu·sik/ n</span></div>
                     <div className="news_post_text">
                       <p>ilmu atau seni menyusun nada atau suara dalam urutan, kombinasi, dan hubungan temporal untuk menghasilkan komposisi (suara) yang mempunyai kesatuan dan kesinam-bungan;</p>
                     </div>
@@ -265,7 +265,7 @@ function App() {
               <div className="col-xl-4 col-md-6">
                 <div className="news_post image_bottom d-flex flex-column align-items-start justify-content-start">
                   <div className="news_post_content order-md-1 order-2">
-                    <div className="news_post_title"><a>Apa itu TrendMusic?</a></div>
+                    <div className="news_post_title"><span>Apa itu TrendMusic?</span></div>
                     <div className="news_post_text">
                       <p>TrendMusic merupakan sebuah aplikasi web semantik untuk mencari musik yang sedang trending, bisa mencari Judul, Artist dan Genre. TrendMusic ini dibuat untuk memenuhi tugas akhir mata kuliah Semantik Web.</p>
                     </div>
@@ -278,7 +278,7 @@ function App() {
                 <div className="news_post image_top">
                   <div className="news_post_image"><img src="images/news_3.jpg" alt="" /></div>
                   <div className="news_post_content">
-                    <div className="news_post_title"><a>Web Semantik</a></div>
+                    <div className="news_post_title"><span>Web Semantik</span></div>
                     <div className="news_post_text">
                       <p>Sir  Tim  Berners-Lee  mendefinisikan  Web  semantik  sebagai pengembangan  dari  web yang  ada  saat ini  dengan  informasi  yang  memiliki  makna  yang didefinisikan  dengan  baik  (well defined  meaning),  lebih  memampukan  komputer  dan manusia untuk bekerja sama (Berners-Lee, 2000).</p>
                     </div>
@@ -297,10 +297,10 @@ function App() {
                 <div className="col text-center">
                   {/* Logo */}
                   <div className="logo">
-                    <a href="#" className="d-flex flex-row align-items-end justify-content-start">
+                    <div href="#" className="d-flex flex-row align-items-end justify-content-start">
                       <span className="logo_bars d-flex flex-row align-items-end justify-content-between"><span /><span /><span /><span /><span /></span>
                       <span className="logo_text">TrendMusic</span>
-                    </a>
+                    </div>
                   </div>
                   {/* Footer Social */}
                 </div>
@@ -313,7 +313,7 @@ function App() {
                 <div className="col">
                   <div className="copyright text-center">
                     {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
-                    Copyright © All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true" /> by <a target="_blank">Colorlib</a>
+                    Copyright © All rights reserved | This template is made by Colorlib
                     {/* Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. */}
                   </div>
                 </div>

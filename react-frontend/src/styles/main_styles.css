@@ -1573,7 +1573,7 @@ section
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: start;
+	align-items: flex-start;
 	background: rgba(0,0,0,0.66);
 	z-index: 1;
 	padding-left: 90px;
@@ -1702,13 +1702,13 @@ section
 {
 	margin-top: 18px;
 }
-.news_post_title a
+.news_post_title span
 {
 	font-size: 24px;
 	font-weight: 700;
 	color: #ffffff;
 }
-.news_post_title a:hover
+.news_post_title span:hover
 {
 	color: #2ac275;
 }
